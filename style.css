@@ -1,0 +1,97 @@
+*{
+  background-color: #f6f6f6;
+}
+
+body{
+  background-color: #f6f6f6;
+}
+
+.nav1{
+  position: relative;
+  display: flex;
+  float: right;
+  margin-top: 0;
+}
+
+.nav1 > a{
+float: right;
+text-decoration: none;
+padding: 4px;
+font-size: 12px;
+}
+
+nav{
+float: left;
+margin-left: 10px;
+margin-right: 20px;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li{
+  color: black;
+  margin-bottom: 7px;
+  font-size: 0.75em;
+}
+
+nav ul li a{
+  text-decoration: none;
+  justify-content: center;
+}
+
+.nav2{
+position: relative;
+display: flex;
+border-left: 1px solid #a7d7f9;
+border-right: 1px solid #a7d7f9;
+margin-top: 40px;
+float: left;
+}
+
+.nav2 ul li{
+  border-right: 1px solid #a7d7f9;
+}
+
+.nav2 > a{
+float: left;
+text-decoration: none;
+padding: 4px;
+font-size: 14px;
+}
+
+.nav3{
+position: relative;
+display: flex;
+margin-top: 40px;
+float: right;
+}
+
+.nav3 > a{
+float: right;
+text-decoration: none;
+padding: 4px;
+font-size: 14px;
+}
+
+.navF{
+  margin-bottom: 20px;
+}
+
+main{
+  display: inline-block;
+  width: 80%;
+  height: 1000px;
+  border-top: 1px solid #a7d7f9;
+  border-left: 1px solid #a7d7f9;
+  background-color: #ffffff;
+
+}
+
+p{
+  font-size: 20px;
+  background-color: #ffffff;
+  
+}
